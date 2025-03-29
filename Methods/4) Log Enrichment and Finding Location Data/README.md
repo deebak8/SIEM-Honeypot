@@ -14,3 +14,4 @@ let WindowsEvents = SecurityEvent
     | order by TimeGenerated desc
     | evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network);
 WindowsEvents
+A public csv file of ip adress is attached
